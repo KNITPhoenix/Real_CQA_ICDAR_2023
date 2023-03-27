@@ -10,3 +10,5 @@
 ### Predictions for Finetuned VLT5 model on PMC dataset: https://drive.google.com/file/d/1hmkFmMMjPBVeG3IFiN6MCP1p0L4V6Epv/view?usp=sharing
 
 ## QA used: https://drive.google.com/file/d/1W4lYUJAv8OtoSbgaHr7GGYdXVPqWUh01/view?usp=share_link
+
+## making_data_for_chartqa.ipynb: changing data in order to make input for ChartQA
