@@ -1,0 +1,89 @@
+Process Launching at GPU 2
+Configurations
+{'RefCOCO_BUTD': False,
+ 'RefCOCO_GT': False,
+ 'adam_beta1': 0.9,
+ 'adam_beta2': 0.999,
+ 'adam_eps': 1e-06,
+ 'answer_normalize': False,
+ 'backbone': 't5-base',
+ 'batch_size': 256,
+ 'caption_cocoonly': True,
+ 'caption_only': False,
+ 'classifier': False,
+ 'clip_grad_norm': -1.0,
+ 'coco_only': False,
+ 'comment': '',
+ 'distributed': True,
+ 'do_lower_case': False,
+ 'dropout': 0.1,
+ 'dry': False,
+ 'epochs': 12,
+ 'feat_dim': 2048,
+ 'fp16': True,
+ 'from_scratch': False,
+ 'gen_max_length': 20,
+ 'gradient_accumulation_steps': 1,
+ 'ground_upsample': 1,
+ 'ground_weight': 1,
+ 'individual_vis_layer_norm': True,
+ 'itm_cocoonly': True,
+ 'load': '/home/feixu/ChartQA/Models/VL-T5/checkpoint/originalvlt5',
+ 'local_rank': 0,
+ 'log_train_accuracy': False,
+ 'losses': 'lm,obj,attr,feat',
+ 'lr': 0.0001,
+ 'max_n_boxes': 36,
+ 'max_text_length': 20,
+ 'multiGPU': True,
+ 'multitask_sampling': 'roundrobin',
+ 'n_boxes': 36,
+ 'n_ground': 1,
+ 'no_prefix': False,
+ 'num_beams': 5,
+ 'num_workers': 8,
+ 'obj_mask_rate': 0.15,
+ 'optim': 'adamw',
+ 'optimizer': 'adamw',
+ 'oscar_tags': False,
+ 'output': '/home/feixu/ChartQA/Models/VL-T5/output/predictions/',
+ 'pos_dim': 4,
+ 'prefix': None,
+ 'raw_label': True,
+ 'seed': 9595,
+ 'share_vis_lang_layer_norm': False,
+ 'shuffle_boxes': False,
+ 'single_vqa_prefix': False,
+ 'src_folder': '/home/feixu/ChartQA/Models/VL-T5/data_chartqa/',
+ 'submit': False,
+ 'tasks': '',
+ 'test': 'test',
+ 'test_answerable': False,
+ 'test_only': False,
+ 'tokenizer': None,
+ 'train': 'train',
+ 'train_topk': -1,
+ 'use_vis_layer_norm': True,
+ 'use_vis_order_embedding': False,
+ 'use_vision': True,
+ 'valid': 'valid',
+ 'valid_batch_size': 64,
+ 'valid_topk': -1,
+ 'warmup_ratio': 0.05,
+ 'weight_decay': 0.01,
+ 'word_mask_rate': 0.15,
+ 'world_size': 3}
+Process Launching at GPU 0
+Process Launching at GPU 1
+Building test loader at GPU 1
+Building test loader at GPU 0Building test loader at GPU 2
+
+Building Model at GPU 1
+Building Model at GPU 2
+Model Launching at GPU 2
+Model Launching at GPU 1
+Building Model at GPU 0
+Model loaded from  /home/feixu/ChartQA/Models/VL-T5/checkpoint/originalvlt5.pth
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['encoder.visual_embedding.img_order_embedding.weight', 'encoder.visual_embedding.layer_norm.weight'])
+Model Launching at GPU 0
+It took 1.0s
