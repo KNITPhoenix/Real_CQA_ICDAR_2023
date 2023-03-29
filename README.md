@@ -11,4 +11,4 @@
 
 ## QA used: https://drive.google.com/file/d/1W4lYUJAv8OtoSbgaHr7GGYdXVPqWUh01/view?usp=share_link
 
-## making_data_for_chartqa.ipynb: changing data in order to make input for ChartQA
+## changing data in order to make input for ChartQA: making_data_for_chartqa.ipynb
