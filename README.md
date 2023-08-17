@@ -1,9 +1,9 @@
 # Real_CQA_ICDAR_2023
 
 ## Input image and annotations: 
-### test 2022: https://drive.google.com/file/d/1DwTiFrjObCBdxnKCPe8lgl9r3meHxkYc/view?usp=share_link
-### train 2022: https://drive.google.com/file/d/1UxWY4tD3uwV23MXj_5xzSMc4wkVopc9J/view?usp=share_link
-### train 2023: https://drive.google.com/file/d/1ELfLNrOvqB01ho1qTXbSb63ttrl5fEJT/view?usp=share_link
+- test 2022: https://drive.google.com/file/d/1DwTiFrjObCBdxnKCPe8lgl9r3meHxkYc/view?usp=share_link
+- train 2022: https://drive.google.com/file/d/1UxWY4tD3uwV23MXj_5xzSMc4wkVopc9J/view?usp=share_link
+- train 2023: https://drive.google.com/file/d/1ELfLNrOvqB01ho1qTXbSb63ttrl5fEJT/view?usp=share_link
 
 ### Input data: https://drive.google.com/file/d/1W4lYUJAv8OtoSbgaHr7GGYdXVPqWUh01/view?usp=share_link
 ### images with annotations only till task 6: saleem_qid_formatted_list.pkl
