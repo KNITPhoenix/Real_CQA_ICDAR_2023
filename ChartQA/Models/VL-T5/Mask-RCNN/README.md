@@ -5,4 +5,5 @@
 ## Data used to create MaskRCNN features
 - https://drive.google.com/file/d/1-pMhQO-gC2r2EN4eQ581AH12Wx_twGyk/view?usp=share_link
 
-## Training maskrcnn model on dataset: PrepareMask-RCNNTrainingData-FigureQA.ipynb
+- Training maskrcnn model on dataset: PrepareMask-RCNNTrainingData-FigureQA.ipynb
+
