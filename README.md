@@ -30,6 +30,6 @@
 - llm evaluation env: /home/spandey8/Real_CQA/llm_evaluation_PMC/env.yaml
 
 ## changing format of the predictions from VLT5 model, to format that can be used for evaluation:
-- changing formats/changing_format_to_evaluation_format_from_ft_pred.py
-- changing formats/changing_format_to_evaluation_format_from_pt_pred.py
+- Finetuned model predictions: changing formats/changing_format_to_evaluation_format_from_ft_pred.py
+- Original model predictions: changing formats/changing_format_to_evaluation_format_from_pt_pred.py
 
