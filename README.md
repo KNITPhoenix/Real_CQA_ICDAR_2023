@@ -11,5 +11,6 @@
 
 ## changing data in order to make input for ChartQA: making_data_for_chartqa.ipynb
 
-## predictions from original VLT5 checkpoint on PMC dataset: https://drive.google.com/file/d/1jaRdBlRNXm2iA77UZPJZ2QM5EExTj85U/view?usp=sharing
-## predictions from FT VLT5 model on PMC: https://drive.google.com/file/d/1hmkFmMMjPBVeG3IFiN6MCP1p0L4V6Epv/view?usp=sharing
+## Predictions
+- Predictions for original VLT5 model on PMC dataset: https://drive.google.com/file/d/1jaRdBlRNXm2iA77UZPJZ2QM5EExTj85U/view?usp=share_link
+- Predictions for Finetuned VLT5 model on PMC dataset: https://drive.google.com/file/d/1hmkFmMMjPBVeG3IFiN6MCP1p0L4V6Epv/view?usp=sharing
