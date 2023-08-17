@@ -14,3 +14,22 @@
 ## Predictions
 - Predictions for original VLT5 model on PMC dataset: https://drive.google.com/file/d/1jaRdBlRNXm2iA77UZPJZ2QM5EExTj85U/view?usp=share_link
 - Predictions for Finetuned VLT5 model on PMC dataset: https://drive.google.com/file/d/1hmkFmMMjPBVeG3IFiN6MCP1p0L4V6Epv/view?usp=sharing
+
+## Training and Inference using shell files:
+- Training: ChartQA/Models/VL-T5/scripts/VQA_VLT5.sh
+- Inference for original VLT5 model: ChartQA/Models/VL-T5/scripts/VQA_VLT5_inference_origvlt5.sh
+- Inference for Finetuned VLT5 model: ChartQA/Models/VL-T5/scripts/VQA_VLT5_inference_ftvlt5_pmc.sh
+
+## source code for VLT5: Real_CQA/ChartQA/Models/VL-T5/src/
+
+## evaluation scripts: Real_CQA/evaluation_PMC/
+
+## environment files:
+- env for VLT5: /home/spandey8/Real_CQA/ChartQA/vlt5.yaml
+- env for creating MaskRCNN features: /home/spandey8/detectron.yaml
+- llm evaluation env: /home/spandey8/Real_CQA/llm_evaluation_PMC/env.yaml
+
+## changing format of the predictions from VLT5 model, to format that can be used for evaluation:
+- changing formats/changing_format_to_evaluation_format_from_ft_pred.py
+- changing formats/changing_format_to_evaluation_format_from_pt_pred.py
+
